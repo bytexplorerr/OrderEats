@@ -1,0 +1,24 @@
+.counter
+{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    position: absolute;
+    bottom: 16px;
+    right: 10px;
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 40px;
+}
+.counter p
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #625e5e;
+    
+}
+.counter img
+{
+    width: 25px;
+    cursor: pointer;
+}

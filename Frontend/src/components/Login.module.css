@@ -1,0 +1,75 @@
+.displayImage
+{
+    background-image: url('header_img.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+.login
+{
+    border: 2px solid black;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+}
+.login div
+{
+    margin: 20px;
+}
+.login .div2
+{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+.div2 input {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+}
+.div2 button
+{
+    color:white;
+    background-color:rgb(176, 44, 20);
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 50%;
+}
+.signupLink
+{
+    color:rgb(192, 49, 24);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.forgot_password
+{
+    color:rgb(233, 78, 50);
+    font-size: 10px;
+}
+@media only screen and (max-width:522px)
+{
+    .login
+    {
+        width: 99%;
+        font-size: 1rem;
+    }
+}

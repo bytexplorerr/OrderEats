@@ -1,0 +1,56 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.order
+{
+    width: 500px;
+    margin: 20px;
+}
+.order input
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    margin: auto;
+    width: 92%;
+    margin: 10px auto;
+    padding: 6px;
+    outline: 0;
+}
+.order .multiple
+{
+    display: flex;
+}
+.order .multiple input
+{
+    width: 210px;
+}
+.order h1
+{
+    text-align: center;
+}
+.order button
+{
+    margin-top: 15px;
+}
+
+@media only screen and (max-width:550px)
+{
+    .order
+    {
+        width: 100%;
+    }   
+    .order .multiple
+    {
+        flex-direction: column;
+    }
+    .order input , .order .multiple input
+    {
+        width: 90%;
+    } 
+}

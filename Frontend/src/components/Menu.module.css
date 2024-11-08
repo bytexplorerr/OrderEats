@@ -1,0 +1,52 @@
+.content h2
+{
+    color: #262626;
+    font-weight: 500;
+    margin: 40px 0 20px 0;
+}
+.item
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+    overflow: auto;
+    margin-top: 30px;
+}
+.item img
+{
+    cursor: pointer;
+    transition: all .3s linear;
+    border-radius: 50%;
+    transition: .2s;
+    width: 8vw;
+    min-width: 100px;
+}
+.item p
+{
+    margin-top: 10px;
+}
+hr
+{
+    margin: 10px;
+    height: 2px;
+    border: none;
+    background-color: #e2e2e2;
+}
+.item::-webkit-scrollbar
+{
+    display: none;
+}
+.active
+{
+    border:5px solid tomato;
+    padding: 2px;
+}
+@media only screen and (max-width:758px)
+{
+    .content p
+    {
+        font-size: 15px;
+    }    
+}

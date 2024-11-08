@@ -1,0 +1,22 @@
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5%;
+}
+nav img
+{
+    cursor: pointer;
+}
+.webname
+{
+    color:rgb(233, 61, 30);
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.div1 p
+{
+    font-size: 15px; 
+}

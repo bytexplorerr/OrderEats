@@ -1,0 +1,88 @@
+.container
+{
+    color:#d9d9d9;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+.container hr
+{
+    height: 2px;
+    color:grey;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+}
+.footer
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-top: 10px;
+    gap: 10px;
+}
+.section1 p
+{
+    text-align: start;
+    margin-top: 20px;
+}
+.section1 h1
+{
+    font-size: 35px;
+    color: rgb(246, 73, 43);
+}
+.footer h2
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(246, 73, 43);
+}
+.company_links
+{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+    color: #d9d9d9;
+    text-decoration: none;
+}
+.company_links:hover
+{
+    text-decoration: underline;
+}
+.symbol
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.symbol img
+{
+    cursor: pointer;
+    width: 40px;
+}
+@media only screen and (max-width: 970px)
+{
+    .footer
+    {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: repeat(2,1fr);
+        row-gap: 20px;
+    }
+}
+@media only screen and  (max-width: 757px)
+{
+    .footer
+    {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .symbol img
+    {
+        width: 30px;
+    }
+}

@@ -1,0 +1,59 @@
+.container
+{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.container aside
+{
+    margin-top:20px;
+    overflow: auto;
+    min-width: 90%;
+}
+.container img
+{
+    width: 50px;
+    height: 50px;
+}
+.order
+{
+    display: flex;
+    border-bottom: 2px solid grey;
+    align-items: center;
+}
+.order div
+{
+    margin-left: 50px;
+}
+.order span
+{
+    font-size: 13px;
+    margin: 10px;
+}
+.tracker
+{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+}
+.tracker span
+{
+    color:rgb(227, 76, 50);
+    margin-right: 5px;
+}
+.priceinfo
+{
+    display: flex;
+    gap: 20px;
+}
+@media only screen and (max-width:652px)
+{
+    .container
+    {
+        font-size: 13px;
+    }   
+}

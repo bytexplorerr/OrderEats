@@ -1,0 +1,39 @@
+.ordersection
+{
+    width: 75%;
+    margin: 20px;
+}
+.ordersection .ordercontainer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    margin: 20px 0;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+select
+{
+    padding: 5px;
+}
+
+@media only screen and (max-width:938px)
+{
+    .ordercontainer
+    {
+        gap: 20px;
+    }
+}
+@media only screen and (max-width:777px)
+{
+    .ordersection .ordercontainer
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

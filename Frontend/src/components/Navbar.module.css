@@ -1,0 +1,103 @@
+:root
+{
+    --blue:#49557e;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+.nav
+{
+    text-decoration: none;
+    margin: 0 1rem;
+    color:black;
+}
+.info
+{
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+}
+.login
+{
+    text-decoration: none;
+    color:var(--blue);
+    border: 2px solid var(--blue);
+    padding: 3px 15px;
+    border-radius: 10px;
+    background-color: #fff4f2;
+    font-weight: 600;
+}
+.cart
+{
+    position: relative;
+}
+.dot
+{
+    position: absolute;
+    min-height: 10px;
+    min-width: 10px;
+    border-radius: 50%;
+    background-color: tomato;
+    right: -2px;
+    top: -5px;
+}
+.active
+{
+    border-bottom: 2px solid var(--blue);
+    padding-bottom: 4px;
+    transition: all .3s linear;
+}
+.homeLogo
+{
+    color:tomato;
+    text-decoration: none;
+    font-size: 35px;
+}
+@media only screen and (max-width:931px) 
+{
+    .nav
+    {
+        margin: 10px;
+        font-size: 15px;
+    }
+    .info
+    {
+        gap: 16px;
+    }
+    .info img
+    {
+        width: 20px;
+    }
+    .login
+    {
+        padding: 1px 10px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:758px) 
+{
+    .homeLogo
+    {
+        font-size: 30px;
+    }
+    nav
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width:370px)
+{
+    .homeLogo
+    {
+        font-size: 20px;
+    }
+    .info
+    {
+        gap: 12px;
+    }
+} 

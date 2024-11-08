@@ -1,0 +1,13 @@
+.total
+{
+    width: 280px;
+    margin: 20px;
+    border-collapse: collapse;
+}
+.total tbody tr
+{
+    border-top: 3px solid rgb(226, 222, 222);
+    border-radius: 10px;
+    margin: 20px 0;
+    height: 40px;
+}

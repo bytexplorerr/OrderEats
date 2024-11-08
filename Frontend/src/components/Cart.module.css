@@ -1,0 +1,59 @@
+.cart
+{
+    margin:100px 0;
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+}
+.cart tbody tr
+{
+    border-top-width: 70%;
+    border-top: 3px solid rgb(226, 222, 222);
+    border-radius: 10px;
+}
+.cart th
+{
+    padding: 15px;
+}
+.cart td
+{
+    text-align: center;
+    padding: 15px;
+}
+.cart p
+{
+    font-weight: 500;
+}
+.food_image
+{
+    width: 60px;
+    height: 40px;
+
+}
+.remove_icon
+{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+button
+{
+    margin-left: 30px;
+    color:white;
+    background-color: rgb(216, 68, 42);
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:758px)
+{
+    main
+    {
+        overflow: auto;
+        width: 100%;
+        margin: 0;
+    }
+}

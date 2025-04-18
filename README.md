@@ -41,6 +41,7 @@ OrderEats is a full-stack food ordering platform that allows users to customize 
 - Stripe account for payment processing
 
 
+
 1. Clone the repository
 ```bash
 git clone https://github.com/devrajsinh-d-jethwa/OrderEats.git

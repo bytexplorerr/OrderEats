@@ -40,7 +40,6 @@ OrderEats is a full-stack food ordering platform that allows users to customize 
 - MongoDB (local or Atlas)
 - Stripe account for payment processing
 
-```
 
 1. Clone the repository
 ```bash

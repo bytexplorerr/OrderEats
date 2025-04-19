@@ -44,7 +44,7 @@ OrderEats is a full-stack food ordering platform that allows users to customize 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/devrajsinh-d-jethwa/OrderEats.git
+git clone https://github.com/bytexplorerr/OrderEats.git
 cd OrderEats
 ```
 
